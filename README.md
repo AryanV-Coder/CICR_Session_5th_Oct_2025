@@ -1,5 +1,5 @@
 # CICR — Session (5th Oct 2025)
-Taken by: Aryan Varshney
+Taken by: Aryan Varshney ([GitHub](https://github.com/AryanV-Coder))
 
 Short educational repository for a junior-level tech session covering modern multimodal tools and quick demos.
 
