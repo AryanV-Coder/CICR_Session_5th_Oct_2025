@@ -29,7 +29,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run a demo (example):
+3. Add your API key (required to run the demos)
+
+- Create a `.env` file in the project root and add your Gemini API key (used by the demo scripts):
+
+```
+GEMINI_API_KEY="your_api_key_here"
+```
+
+- (Optional but recommended for Streamlit) Create a `/.streamlit/secrets.toml` file with the same key so Streamlit apps can access it securely:
+
+```
+GEMINI_API_KEY = "your_api_key_here"
+```
+
+Note: After adding these files, restart any running Streamlit processes so the new secrets are picked up.
+
+4. Run a demo (example):
 
 ```bash
 streamlit run app.py
